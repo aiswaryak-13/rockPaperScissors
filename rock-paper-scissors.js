@@ -43,7 +43,8 @@ let result='';
         }else if(computerMove==='Scissors')
         {
           result='You lose.';
-        }else if(playerMove===`Rock`)
+        }
+       }else if(playerMove===`Rock`)
         {
           if(computerMove==='Rock')
           {
@@ -56,7 +57,7 @@ let result='';
             result='You win.';
          }
         }  
-      }
+      
 
       if(result===`You win.`)
       {
