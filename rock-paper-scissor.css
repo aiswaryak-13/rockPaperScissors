@@ -1,6 +1,6 @@
 body
 {
-  background-color: rgb(23, 23, 23);
+  background-color: rgb(255, 190, 78);
   color: white;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -10,6 +10,9 @@ body
   font-size: 30px;
   font-weight: bold;
   color: white;
+  margin-top: 0;
+  padding-top: 0;
+  text-wrap: nowrap;
 }
 button
 {
@@ -49,3 +52,106 @@ img
   font-size: 15px;
 
 }
+.container
+{
+  width: auto;
+  height: auto;
+  margin: 0 100px;
+  padding: 60px;
+  background-color:  rgb(23,23,23);
+  border-radius: 15px;
+  box-shadow: 1px 4px 4px rgb(118, 76, 0);
+  text-align: center;
+}
+
+@media (max-width:735px)
+{
+  .container
+{
+  margin: 0 50px;
+  padding: 50px;
+}
+
+}
+@media (max-width:615px)
+{
+  .headline
+  {
+    font-size: 28px;
+  }
+  .container
+{
+  margin: 0 20px;
+  padding: 20px;
+}
+
+}
+
+@media (max-width:496px)
+{
+  .container
+{
+  margin: 0;
+  padding: 20px;
+}
+
+}
+@media (max-width:455px)
+{
+  .container
+{
+  padding: 20px;
+}
+
+}
+@media (max-width:321px)
+{
+  .headline
+  {
+    font-size: 21px;
+  }
+  button
+{
+  width: 100px;
+  height: 100px;
+}
+img
+{
+  height: 56px;
+  
+}
+.result
+{
+  font-size:23px ;
+}
+.reset-button
+{
+  height:30px ;
+  width:90px ;
+  padding: 1px 5px;
+  font-size: 12px;
+}
+}
+
+@media (max-width:281px)
+{
+  .headline
+  {
+    font-size: 18px;
+  }
+  button
+{
+  width: 60px;
+  height: 60px;
+}
+img
+{
+  height: 30px;
+  
+}
+.result
+{
+  font-size:20px ;
+}
+}
+
